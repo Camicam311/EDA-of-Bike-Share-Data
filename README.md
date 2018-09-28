@@ -296,4 +296,4 @@ Motivate International, Inc. <https://www.fordgobike.com/>
 Thanks for reading!
 -------------------
 
-If you have any feedback or points for me to improve on please let me know by leaving me a comment. Thanks!
+If you have any feedback or points for me to improve on please let me know. Thanks!
