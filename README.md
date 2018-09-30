@@ -160,7 +160,7 @@ head(bike_17_min %>%
     ## 5        1438.
     ## 6        1437.
 
-How long do customers ride for? Customers can pay for a 30 minute ride or buy a 1 day pass for unlimited 30 minute rides for 24 hours (going over 30 minutes would result in a fee for each additional 15 minutes of riding). Since these options are marketed as "perfect for the explorer", I believe customers are either tourists riding to travel between their desired destinations or locals who want to try out the bikes before subscribing. Note that it is unclear from the dataset whether each ride with the usertype customer is classified as an individual ride or a day pass. Regardless, 76% of customers rode for 30 minutes or less.
+How long do customers ride for? Customers can pay for a 30 minute ride or buy a 1 day pass for unlimited 30 minute rides for 24 hours (going over 30 minutes would result in a fee for each additional 15 minutes of riding). Since these options are marketed as "perfect for the explorer", I believe customers are either tourists riding to travel between their desired destinations or locals who want to try out the bikes before subscribing. Note that it is unclear from the dataset whether each ride with the usertype customer is classified as an individual ride or a day pass. Regardless, 76% of customer rides were 30 minutes or less.
 
 ``` r
 #calculate percent of customer rides that were 30 minutes or less
@@ -206,7 +206,7 @@ bike_17_min %>%
     ## 1 Subscriber 45 min or less               409230 405649 0.991  
     ## 2 Subscriber more than 45 min             409230   3581 0.00875
 
-Broken down further, over 75% of subscribers ride for less than 15 minutes while only over 30% of customers do. Subscribers ride for very short durations, with barely any rides lasting between 30 to 45 minutes. Thus, it does not seem necessary to give suscribers 45 minutes rides compared to a customer's 30 minutes ride. I can see people feeling more inclined to become a subscriber after seeing the extended time limit, but in reality subscribers don't need the extra 15 minutes.
+Broken down further, over 75% of subscribers rides last for less than 15 minutes while only over 30% of customers do. Subscribers ride for very short durations, with barely any rides lasting between 30 to 45 minutes. Thus, it does not seem necessary to give suscribers 45 minutes rides compared to a customer's 30 minutes ride. I can see people feeling more inclined to become a subscriber after seeing the extended time limit, but in reality subscribers don't need the extra 15 minutes.
 
 ![](Exploratory_Data_Analysis_on_Ford_GoBike_Data_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
