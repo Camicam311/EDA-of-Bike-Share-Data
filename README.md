@@ -61,7 +61,7 @@ Also, note that the highest count for customers are of observations with empty s
 
 ![](Exploratory_Data_Analysis_on_Ford_GoBike_Data_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-In fact, 61735 of the 66541 of the empty strings in the gender columns are from customers. Not including observatios with missing values in analysis runs a risk of bias if there is a lurking variable, which is a problem I will encounter when I look at ages of ride next.
+In fact, 61735 of the 66541 of the empty strings in the gender columns are from customers. Not including observatios with missing values in analysis runs a risk of bias if there is a lurking variable, which is a problem I will encounter when I look at ages of rides next.
 
     ##             
     ##                     Female   Male  Other
